@@ -73,9 +73,11 @@
 <div class="card">
     <h1>แปลงกิโลเมตรเป็นไมล์</h1>
 
+    <!-- เอาไว้ไปหน้าต่อไปส่งแบบเป็นโพสต์ด้วยresult.php -->
+
     <form action="result.php" method="post">
         <label>กรอกกิโลเมตร</label>
-        <input type="number" step="0.001" name="Km" required>
+        <input type="number" step="any" name="Km" required>
 
         <button type="submit">คำนวณ</button>
     </form>
